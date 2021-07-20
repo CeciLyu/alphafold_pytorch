@@ -18,5 +18,6 @@ done
 echo -e "All models running, waiting for them to complete\n"
 wait
 
-echo "Ensembling all replica outputs & Pasting contact maps"
-python alphafold.py -i $TARGET_FILE -o $OUTPUT_DIR -e
+# echo "Ensembling all replica outputs & Pasting contact maps"
+# python alphafold.py -i $TARGET_FILE -o $OUTPUT_DIR -e
+
