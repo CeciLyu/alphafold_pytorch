@@ -1,9 +1,9 @@
 #!/bin/bash
 
 TARGET="T1019s2"
-TARGET_FILE="test_data/${TARGET}.pkl"
-MODEL_DIR="model"
-OUTPUT_DIR="${TARGET}_out"
+TARGET_FILE="../../casp13_data/${TARGET}.pkl"
+MODEL_DIR="../../model"
+OUTPUT_DIR="../../Results/${TARGET}_out"
 
 echo -e "Saving output to ${OUTPUT_DIR}/\n"
 
